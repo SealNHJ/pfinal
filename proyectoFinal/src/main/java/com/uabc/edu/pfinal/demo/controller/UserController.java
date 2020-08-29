@@ -62,6 +62,19 @@ public class UserController {
         return "redirect:/";
     }
 
+    @PostMapping("/addp")
+    @Secured("ROLE_USER")
+    public String addProduct(Producto producto, BindingResult result, Model model) {
+
+        if (result.hasErrors()) {
+            return "add-prod";
+        }
+        pservice.registrarProducto(producto);
+
+        return "redirect:/";
+    }
+
+
     @GetMapping("/prueba")
     public String test(){
 

@@ -6,7 +6,6 @@ import java.util.Set;
 @Entity
 @Table(name = "User_Security")
 public class UserSecurity {
-
     @GeneratedValue
     @Id
     private Long id;
@@ -17,7 +16,11 @@ public class UserSecurity {
     {}
 
     public UserSecurity(String name, String password)
-    {}
+    {
+        this.name=name;
+        this.password=password;
+		
+	}
 
     public String getName() {
         return name;

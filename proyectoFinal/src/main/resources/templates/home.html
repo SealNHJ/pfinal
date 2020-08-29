@@ -2,24 +2,39 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title th:text="${title}">Title</title>
-    <link rel="stylesheet" type="text/css"  th:href="@{css/bootstrap.min.css}"/>
+    <link rel="stylesheet" th:href="@{css/estiloapp.css}" type="text/css">
 </head>
-<body>
-<div class="container">
-    <div class="navbar">
-        <div class="navbar-inner">
-            <a class="brand" href="http://www.thymeleaf.org"> Thymeleaf -
-                Plain </a>
-            <ul class="nav">
-                <li><a th:href="@{/}" href="home.html"> Home </a></li>
-                <li><a th:href="@{/logout}" href="logout"> Logout </a></li>
-            </ul>
-        </div>
-    </div>
-    <h1 th:text="${title}">Title</h1>
-    <div th:text="${message}">Fake content</div>
-    <div id="created" th:text="${#dates.format(date)}">July 11,
-        2012 2:17:16 PM CDT</div>
-</div>
+<body style="background-color: rgba(97,97,97,0.17)">
+<div class="top-var"></div>
+<img th:src="@{images/logo.png}" id="logo7-main">
+
+<p class="titulo_bienvenida"> Bienvenido al sistema de registro 7-Eleven</p>
+<div class="contenedor_crud"></div>
+
+<form method="get" action="/logout">
+    <button type="submit" class="bot2"> <img th:src="@{images/lo.png}" id="lo"> </button>
+</form>
+<p class="desc"> Seleccione una operación</p>
+
+<div class="C"></div>
+<p class="C_text">Alta de producto</p>
+
+<a href="/app/agregar"> <img th:src="@{images/create.png}" id="create_icon"> </a>
+
+<div class="R"></div>
+<p class="R_text">Consulta de producto</p>
+
+<a href="/app/index"> <img th:src="@{images/read.png}" id="read_icon"> </a>
+
+<div class="U"></div>
+<p class="U_text">Actualización de producto</p>
+
+<a href="/app/eliminar/"> <img th:src="@{images/update.png}" id="update_icon"> </a>
+
+<div class="D"></div>
+<p class="D_text">Baja de producto</p>
+
+<a href="/app/agregar"> <img th:src="@{images/delete.png}" id="delete_icon"> </a>
+
 </body>
 </html>

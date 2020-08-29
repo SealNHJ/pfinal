@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+/*Login*/
+.top-var{
+    position: absolute;
+    width: 99%;
+    height: 10%;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.75);
+}
+.log{
+    position: absolute;
+    width: 40%;
+    height: 60%;
+    top: 15%;
+    left: 30%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+#logo7{
+    width: 30%;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+
+.fs{
+    top: 50%;
+    left: 35%;
+    position: absolute;
+    width:27%;
+}
+
+#login{
+    position: absolute;
+    left: 47.5%;
+    top: 60%;
+}
+
+.alert{
+    color: red;
+    position: absolute;
+    left: 41%;
+    top: 65%;
+}
+
+.title_main{
+    position: absolute;
+    left: 39%;
+    top: 38%;
+    font-size: 28px;
+}
+/*Fin de login*/
+
+/*Inicio*/
+
+.bot{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+
+.bot2{
+    position: absolute;
+    width: 6%;
+    height: 8%;
+    top: 2.5%;
+    left: 93%;
+}
+
+.options{
+    background-color: white;
+    position: absolute;
+    top: 7%;
+    left: 91%;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+.titulo_bienvenida{
+    position: absolute;
+    color: white;
+    font-size: 34px;
+    font-family: 'Russo One', sans-serif;
+    top: -2%;
+    left: 23%;
+}
+
+.desc{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    top: 20%;
+    left: 40.5%;
+}
+
+.contenedor_crud{
+    position: absolute;
+    width: 35%;
+    height: 75%;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    left: 31%;
+    top: 20%;
+}
+
+.C{
+    position: absolute;
+    width: 28%;
+    height: 12%;
+    background: rgb(128,255,80);
+    background: linear-gradient(60deg, rgba(128,255,80,1) 0%, rgba(204,204,204,1) 100%);
+    top: 30%;
+    left: 35%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+.R{
+    position: absolute;
+    width: 28%;
+    height: 12%;
+    background: rgb(80,255,221);
+    background: linear-gradient(60deg, rgba(80,255,221,1) 0%, rgba(204,204,204,1) 100%);
+    top: 45%;
+    left: 35%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+.U{
+    position: absolute;
+    width: 28%;
+    height: 12%;
+    background: rgb(255,203,80);
+    background: linear-gradient(60deg, rgba(255,203,80,1) 0%, rgba(204,204,204,1) 100%);
+    top: 60%;
+    left: 35%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+.D{
+    position: absolute;
+    width: 28%;
+    height: 12%;
+    background: rgb(255,80,80);
+    background: linear-gradient(60deg, rgba(255,80,80,1) 0%, rgba(204,204,204,1) 100%);
+    top: 75%;
+    left: 35%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.18);
+}
+
+#logo7-main{
+    position: absolute;
+    width: 15%;
+    top: 3%;
+    left: 3%;
+}
+.C_text{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    top: 32%;
+    left: 37%;
+}
+
+.R_text{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    top: 47%;
+    left: 37%;
+}
+.U_text{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    top: 62%;
+    left: 37%;
+}
+.D_text{
+    position: absolute;
+    color: black;
+    font-size: 18px;
+    font-family: 'Russo One', sans-serif;
+    top: 77%;
+    left: 37%;
+}
+
+#lo{
+    width: 50px;
+    height: 40px;
+}
+
+#create_icon{
+    position: absolute;
+    width: 4%;
+    top: 32%;
+    left: 55%;
+}
+
+#read_icon{
+    position: absolute;
+    width: 4%;
+    top: 47%;
+    left: 55%;
+}
+
+#update_icon{
+    position: absolute;
+    width: 4%;
+    top: 62%;
+    left: 55%;
+}
+
+#delete_icon{
+    position: absolute;
+    width: 4%;
+    top: 77%;
+    left: 55%;
+}
+
+/*Fin inicio*/
